@@ -930,6 +930,15 @@ footer .copy-right {
     transition: 0.5s;
   }
 
+  .mainvisual .fade li img {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  object-position: top center;
+  z-index: 10;
+}
+
   /*-----------------------------------------------------------
   concept
 -----------------------------------------------------------*/
